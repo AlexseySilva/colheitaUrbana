@@ -1,0 +1,239 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* Inicio da nav bar */
+nav{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: rgb(216, 15, 8);
+    height: 40px;
+    width: 100%;
+}
+/* Final da nav bar */
+ /*###################*/
+ /* Nav bar (inicio) */
+#navInicio{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+#navInicio:hover{
+    color: #220ed3;
+}
+/* Final da Nav bar (inicio) */
+ /*###################*/
+ /* Inicio da Nav bar Historia */
+#navHistoria{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+#navHistoria:hover{
+    color: #220ed3;
+}
+/* Final da Nav bar Historia */
+ /*###################*/
+ /* Inicio da Nav bar Galeria */
+#navGaleria{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+#navGaleria:hover{
+    color: #220ed3;
+}
+/* Final da Nav bar Galeria */
+ /*###################*/
+ /* Inicio da Nav bar Comunidade */
+#navComunidade{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+#navComunidade:hover{
+    color: #220ed3;
+}
+/* Final da Nav bar Comunidade */
+ /*###################*/
+ /* Inicio da Nav bar Sobre */
+#navSobre{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+#navSobre:hover{
+    color: #220ed3;
+}
+/* Final da Nav bar Comunidade */
+ /*###################*/
+ /* Inicio da Nav bar Contato */
+#navContato{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+#navContato:hover{
+    color: #220ed3;
+}
+/* Final da Nav bar Comunidade */
+ /*###################*/
+ /* Inicio da Nav Login */
+#Ideia{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+#Ideia:hover{
+    color: #220ed3;
+}
+/* Final da Nav bar Login */
+ /*###################*/
+ /* Inicio da Nav bar Body */
+body {
+	line-height: 1;
+    
+    
+}
+                                    /* Por paginas */
+                                /*###################*/
+                                /* Inicio do css do Index */
+
+#h1index{
+    text-align: center;
+    color:#000000;
+    font-size: 25px;
+}
+
+
+                                /* Final do css Index */
+                                /*###################*/
+                                /* Inicio CSS Historia */
+#h1historia{
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+#textoHistoria{
+    font-size: 20px;
+    margin: 15px;
+    align-items: center;
+    color: #000000;
+}
+
+
+                                /* Final css Historia */
+                                /*###################*/
+                                /* Inicio css Galeria */
+
+
+                                /* Final css Galeria*/
+                                /*###################*/
+                                /* Inicio css Comunidade */
+
+
+                                /* Final css Comunidade*/
+                                /*###################*/
+                                /* Inicio css Sobre */
+
+
+
+                                /* Final css Sobre*/
+                                /*###################*/
+                                /* Inicio Contato */
+
+
+
+
+                                /* Final css contato */
+                                    /*###################*/
+                                    /* Inicio css Login */
+
+
+
+                                  /* Final css login*/
+                                        /*###################*/
+                                        /* Inicio css Apresentação */
+#bodyapresentação{
+
+    color: #000000;
+}
+#h1apresentação{
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px;
+}
+#section1{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 400px;
+    width: 80vh;
+    background-image: url(../assets/ApresentacaoSite/celularArvore.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#divEscrita1{
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-right: 20;
+    
+}
+#pEscrito1{
+    flex-wrap: nowrap;
+    text-align: center;
+    margin-right: 20;
+}
+
+
+                                
