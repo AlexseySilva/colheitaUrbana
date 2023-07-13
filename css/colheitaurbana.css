@@ -233,6 +233,7 @@ body {
     flex-wrap: nowrap;
     text-align: center;
     margin-right: 20;
+    float: right;
 }
 
 
