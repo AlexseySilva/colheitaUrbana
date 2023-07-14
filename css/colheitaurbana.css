@@ -206,6 +206,7 @@ body {
                                         /* Inicio css Apresentação */
 #bodyapresentação{
     color: #000000;
+    background-color: #6eb364;
 }
 #h1apresentação{
     color: #000000;
@@ -283,7 +284,7 @@ text-align: justify;
 margin-left: 90px;
 height: 400px;
 width: 400px;
-background-image: url(../assets/ApresentacaoSite/felicidade.jpg);
+background-image: url(../assets/ApresentacaoSite/celularArvore.jpg);
 background-size: cover;
         
 }
