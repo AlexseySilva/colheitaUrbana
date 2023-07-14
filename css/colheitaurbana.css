@@ -205,7 +205,6 @@ body {
                                         /*###################*/
                                         /* Inicio css Apresentação */
 #bodyapresentação{
-
     color: #000000;
 }
 #h1apresentação{
@@ -214,27 +213,100 @@ body {
     text-align: center;
     margin: 20px;
 }
-#section1{
+/*########################## Primeira imagem e texto ###################### */
+#imgETexto{
+    width: 100%;
     display: flex;
-    flex-wrap: nowrap;
-    height: 400px;
-    width: 80vh;
-    background-image: url(../assets/ApresentacaoSite/celularArvore.jpg);
+}
+#apresentacaoimg{
+    height: 500px;
+    width: 1800px;
+    margin-bottom: 20px;
+    background-image:url(../assets/ApresentacaoSite/celularArvore.jpg);
+    background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 }
-#divEscrita1{
-    flex-wrap: nowrap;
-    text-align: center;
-    margin-right: 20;
+#apresentacaoTexto {
+    margin-left: 20px;
+    margin-right: 400px;
     
+    font-size: 20px;
+    justify-content: center;
 }
-#pEscrito1{
-    flex-wrap: nowrap;
+/*########################## Separação de divisão ######################*/
+#separadorDeSection{
+    background-color: #6eb364;
+    height: 25px;
     text-align: center;
-    margin-right: 20;
-    float: right;
+    font-size: 25px;
+    margin: 10 0 10 0;
+}
+/*########################## Separação de divisão ######################*/
+
+
+/*########################## Segunda imagem e texto ######################*/
+#imgETexto2{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+#apresentapresentacaoTexto2{
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+#apresentacaoimg2{
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    background-image: url(../assets/ApresentacaoSite/frutrosColetados.jpg);
+    background-size: cover;
+
+}
+/*########################## Terceira imagem e texto ######################*/
+
+#imgETexto3{
+margin-top: 20px;
+width: 100%;
+display: flex;
+}
+#apresentapresentacaoTexto3{
+height: 400px;
+width: 400px;
+font-size: 20px;
+justify-content: center;
+text-align: justify;
+}
+#apresentacaoimg3{
+margin-left: 90px;
+height: 400px;
+width: 400px;
+background-image: url(../assets/ApresentacaoSite/felicidade.jpg);
+background-size: cover;
+        
+}
+/*########################## Quarta imagem e texto ######################*/
+#imgETexto4 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
 }
 
+#apresentapresentacaoTexto4 {
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+}
 
-                                
+#apresentacaoimg4 {
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    background-image: url(../assets/ApresentacaoSite/felicidade.jpg);
+    background-size: cover;
+
+}
