@@ -1,44 +1,130 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-ol, ul {
-	list-style: none;
+
+ol,
+ul {
+    list-style: none;
 }
-blockquote, q {
-	quotes: none;
+
+blockquote,
+q {
+    quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
 }
+
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
 }
+
 /* Inicio da nav bar */
-nav{
+nav {
     display: flex;
     justify-content: end;
     align-items: center;
@@ -46,125 +132,143 @@ nav{
     height: 40px;
     width: 100%;
 }
-/* Final da nav bar */
- /*###################*/
- /* Nav bar (inicio) */
-#navInicio{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
-#navInicio:hover{
-    color: #220ed3;
-}
-/* Final da Nav bar (inicio) */
- /*###################*/
- /* Inicio da Nav bar Historia */
-#navHistoria{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
-#navHistoria:hover{
-    color: #220ed3;
-}
-/* Final da Nav bar Historia */
- /*###################*/
- /* Inicio da Nav bar Galeria */
-#navGaleria{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
-#navGaleria:hover{
-    color: #220ed3;
-}
-/* Final da Nav bar Galeria */
- /*###################*/
- /* Inicio da Nav bar Comunidade */
-#navComunidade{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
-#navComunidade:hover{
-    color: #220ed3;
-}
-/* Final da Nav bar Comunidade */
- /*###################*/
- /* Inicio da Nav bar Sobre */
-#navSobre{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
-#navSobre:hover{
-    color: #220ed3;
-}
-/* Final da Nav bar Comunidade */
- /*###################*/
- /* Inicio da Nav bar Contato */
-#navContato{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
-#navContato:hover{
-    color: #220ed3;
-}
-/* Final da Nav bar Comunidade */
- /*###################*/
- /* Inicio da Nav Login */
-#Ideia{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
-#Ideia:hover{
-    color: #220ed3;
-}
-/* Final da Nav bar Login */
- /*###################*/
- /* Inicio da Nav bar Body */
-body {
-	line-height: 1;
-    
-    
-}
-                                    /* Por paginas */
-                                /*###################*/
-                                /* Inicio do css do Index */
 
-#h1index{
+/* Final da nav bar */
+/*###################*/
+/* Nav bar (inicio) */
+#navInicio {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
     text-align: center;
-    color:#000000;
+    margin-right: 10px;
+}
+
+#navInicio:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar (inicio) */
+/*###################*/
+/* Inicio da Nav bar Historia */
+#navHistoria {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#navHistoria:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar Historia */
+/*###################*/
+/* Inicio da Nav bar Galeria */
+#navGaleria {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#navGaleria:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar Galeria */
+/*###################*/
+/* Inicio da Nav bar Comunidade */
+#navComunidade {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#navComunidade:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar Comunidade */
+/*###################*/
+/* Inicio da Nav bar Sobre */
+#navSobre {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#navSobre:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar Comunidade */
+/*###################*/
+/* Inicio da Nav bar Contato */
+#navContato {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#navContato:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar Comunidade */
+/*###################*/
+/* Inicio da Nav Login */
+#Ideia {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#Ideia:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar Login */
+/*###################*/
+/* Inicio da Nav bar Body */
+body {
+    line-height: 1;
+    
+
+
+}
+
+/* Por paginas */
+/*###################*/
+/* Inicio do css do Index */
+
+#h1index {
+    text-align: center;
+    color: #000000;
     font-size: 25px;
 }
 
 
-                                /* Final do css Index */
-                                /*###################*/
-                                /* Inicio CSS Historia */
-#h1historia{
+/* Final do css Index */
+/*###################*/
+/* Inicio CSS Historia */
+#h1historia {
     color: #000000;
     font-size: 30px;
     text-align: center;
 }
-#textoHistoria{
+
+#textoHistoria {
     font-size: 20px;
     margin: 15px;
     align-items: center;
@@ -172,93 +276,103 @@ body {
 }
 
 
-                                /* Final css Historia */
-                                /*###################*/
-                                /* Inicio css Galeria */
+/* Final css Historia */
+/*###################*/
+/* Inicio css Galeria */
 
 
-                                /* Final css Galeria*/
-                                /*###################*/
-                                /* Inicio css Comunidade */
+/* Final css Galeria*/
+/*###################*/
+/* Inicio css Comunidade */
 
 
-                                /* Final css Comunidade*/
-                                /*###################*/
-                                /* Inicio css Sobre */
-
-
-
-                                /* Final css Sobre*/
-                                /*###################*/
-                                /* Inicio Contato */
+/* Final css Comunidade*/
+/*###################*/
+/* Inicio css Sobre */
 
 
 
-
-                                /* Final css contato */
-                                    /*###################*/
-                                    /* Inicio css Login */
-
+/* Final css Sobre*/
+/*###################*/
+/* Inicio Contato */
 
 
-                                  /* Final css login*/
-                                        /*###################*/
-                                        /* Inicio css Apresentação */
-#bodyapresentação{
+
+
+/* Final css contato */
+/*###################*/
+/* Inicio css Login */
+
+
+
+/* Final css login*/
+/*###################*/
+/* Inicio css Apresentação */
+#bodyapresentação {
     color: #000000;
-    background-color: #6eb364;
+    background-color: #ffd00080;
 }
-#h1apresentação{
-    color: #000000;
-    font-size: 20px;
+
+#h1apresentação {
+    color: #1a7204;
+    font-size: 50px;
     text-align: center;
     margin: 20px;
 }
+
 /*########################## Primeira imagem e texto ###################### */
-#imgETexto{
+#imgETexto {
     width: 100%;
     display: flex;
+    color: #2aa00d;
 }
-#apresentacaoimg{
+
+#apresentacaoimg {
     height: 500px;
     width: 1800px;
     margin-bottom: 20px;
-    background-image:url(../assets/ApresentacaoSite/celularArvore.jpg);
+    background-image: url(../assets/ApresentacaoSite/celularArvore.jpg);
     background-size: cover;
     background-position: center;
 }
+
 #apresentacaoTexto {
     margin-left: 20px;
     margin-right: 400px;
-    
+
     font-size: 20px;
     justify-content: center;
 }
+
 /*########################## Separação de divisão ######################*/
-#separadorDeSection{
-    background-color: #6eb364;
+#separadorDeSection {
+    color: white;
+    background-color: #964b00;
     height: 25px;
     text-align: center;
     font-size: 25px;
     margin: 10 0 10 0;
 }
+
 /*########################## Separação de divisão ######################*/
 
 
 /*########################## Segunda imagem e texto ######################*/
-#imgETexto2{
+#imgETexto2 {
     margin-top: 20px;
     width: 100%;
     display: flex;
 }
-#apresentapresentacaoTexto2{
+
+#apresentapresentacaoTexto2 {
     height: 400px;
     width: 400px;
     font-size: 20px;
     justify-content: center;
     text-align: justify;
 }
-#apresentacaoimg2{
+
+#apresentacaoimg2 {
     margin-left: 90px;
     height: 400px;
     width: 400px;
@@ -266,28 +380,32 @@ body {
     background-size: cover;
 
 }
+
 /*########################## Terceira imagem e texto ######################*/
 
-#imgETexto3{
-margin-top: 20px;
-width: 100%;
-display: flex;
+#imgETexto3 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
 }
-#apresentapresentacaoTexto3{
-height: 400px;
-width: 400px;
-font-size: 20px;
-justify-content: center;
-text-align: justify;
+
+#apresentapresentacaoTexto3 {
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
 }
-#apresentacaoimg3{
-margin-left: 90px;
-height: 400px;
-width: 400px;
-background-image: url(../assets/ApresentacaoSite/celularArvore.jpg);
-background-size: cover;
-        
+
+#apresentacaoimg3 {
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    background-image: url(../assets/ApresentacaoSite/fotoFrutos.jpg);
+    background-size: cover;
+
 }
+
 /*########################## Quarta imagem e texto ######################*/
 #imgETexto4 {
     margin-top: 20px;
@@ -310,4 +428,11 @@ background-size: cover;
     background-image: url(../assets/ApresentacaoSite/felicidade.jpg);
     background-size: cover;
 
+}
+/*########################## Pdf ######################*/
+#pdf{
+    height: 900px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../assets/ApresentacaoSite/pdfFoi.png);
 }
