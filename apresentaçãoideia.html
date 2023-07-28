@@ -6,17 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
     <link rel="stylesheet" href="css/colheitaurbana.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<nav>
-    <a href=""></a>
-    <a id="navInicio" href="index.html">Inicio</a>
-    <a id="navHistoria" href="historia.html">Historia</a>
-    <a id="navGaleria" href="galeria.html">Galeria</a>
-    <a id="navComunidade" href="comunidade.html">Comunidade</a>
-    <a id="navSobre" href="sobre.html">Sobre</a>
-    <a id="navContato" href="contato.html">Contato</a>
-    <a id="Ideia" href="apresentaçãoideia.html">Ideia</a>
-</nav>
+<div class="topnav" id="myTopnav">
+    <a href="index.html" class="active">Inicio</a>
+    <a href="historia.html">Historia</a>
+    <a href="galeria.html">Galeria</a>
+    <a href="comunidade.html">Comunidade</a>
+    <a href="sobre.html">Sobre</a>
+    <a href="contato.html">Contato</a>
+    <a href="apresentaçãoideia.html">Ideia</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 <body id="bodyapresentação">
     <h1 id="h1apresentação">Sobre a ideia e apresentação</h1>
     <section id="separadorDeSection">
@@ -112,5 +115,27 @@
     <section id="pdf">
         <img src="https://i.imgur.com/AfhDw6C.png" alt="">
     </section>
+    <footer>
+        <div class="contato">
+            <div class="contato_ref">
+                <p><a href="mailto:alexsey.batista@hotmail.com">E-mail Alexsey</a></p>
+                <br>
+                <a id="aParaFooter" href="https://wa.me/+5519981458441/?text=urlencodedtext">whatsapp</a>
+                <p><a href="mailto:alexsey.batista@hotmail.com">Alexsey Batista Da Silva</a></p>
+                <p>Alexsey - 2023</p>
+                <p>&copy; 2023 Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>    
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myTopnav");
+          if (x.className === "topnav") {
+            x.className += " responsive";
+          } else {
+            x.className = "topnav";
+          }
+        }
+        </script>     
 </body>
 </html>
