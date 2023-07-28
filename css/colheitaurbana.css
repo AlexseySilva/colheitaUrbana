@@ -1,82 +1,7 @@
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
+*{
+    margin: 0;
+    padding: 0;
+}
 video {
     margin: 0;
     padding: 0;
@@ -151,34 +76,11 @@ nav {
 /* Final da Nav bar (inicio) */
 /*###################*/
 /* Inicio da Nav bar Historia */
-#navHistoria {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
 
-#navHistoria:hover {
-    color: #220ed3;
-}
 
 /* Final da Nav bar Historia */
 /*###################*/
-/* Inicio da Nav bar Galeria */
-#navGaleria {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin-left: 15px;
-    text-align: center;
-    margin-right: 10px;
-}
 
-#navGaleria:hover {
-    color: #220ed3;
-}
-
-/* Final da Nav bar Galeria */
 /*###################*/
 /* Inicio da Nav bar Comunidade */
 #navComunidade {
@@ -262,13 +164,28 @@ body {
 /* Final do css Index */
 /*###################*/
 /* Inicio CSS Historia */
-#h1historia {
-    color: #000000;
+#navHistoria {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#navHistoria:hover {
+    color: #220ed3;
+}
+#bodyHistoria{
+    background-color: #1a7204;
+}
+#h1historia {padding-top: 20px;
+    color: #0a0a0a;
     font-size: 30px;
     text-align: center;
 }
 
 #textoHistoria {
+
     font-size: 20px;
     margin: 15px;
     align-items: center;
@@ -279,6 +196,101 @@ body {
 /* Final css Historia */
 /*###################*/
 /* Inicio css Galeria */
+/* Inicio da Nav bar Galeria */
+#navGaleria {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-left: 15px;
+    text-align: center;
+    margin-right: 10px;
+}
+
+#navGaleria:hover {
+    color: #220ed3;
+}
+
+/* Final da Nav bar Galeria */
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.polaroid {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    background-image: url(../assets/Fotos/primeiraFotoDoSite.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    padding: auto;
+    border-style: solid;
+    border-color: #c4bcb4;
+}
+.polaroid1 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    background-image: url(../assets/Fotos/minhaPrimeiraFoto.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    padding: auto;
+    border-style: solid;
+    border-color: #c4bcb4;
+}
+.polaroid2 {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    background-image: url(../assets/Fotos/Abacate.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 5px;
+    padding: auto;
+    border-style: solid;
+    border-color: #c4bcb4;
+}
+.polaroid img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding:5px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color:#c4bcb4;
+    
+}
+.container a{
+    text-decoration: none;
+    color: #000000;
+}
+.container a:hover{
+    color: #060ae2;
+}
+.container img {
+    width: 50px;
+    border-radius: 40%;
+}
+.container a img{
+    width: 30px;
+}
 
 
 /* Final css Galeria*/
@@ -314,7 +326,7 @@ body {
 }
 
 #h1apresentação {
-    color: #080808;
+    color: #1a7204;
     font-size: 50px;
     text-align: center;
     margin: 20px;
