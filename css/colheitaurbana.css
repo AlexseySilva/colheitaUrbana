@@ -53,7 +53,7 @@ nav {
     display: flex;
     justify-content: end;
     align-items: center;
-    background-color: rgb(216, 15, 8);
+    background-color: #d80f08;
     height: 40px;
     width: 100%;
 }
@@ -447,4 +447,24 @@ main{
     width: 100%;
     background-size: cover;
     background-image: url(../assets/ApresentacaoSite/pdfFoi.png);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #d80f08;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.contato_ref{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.contato_ref a{
+    text-decoration: none;
+    color: #000000;
 }
