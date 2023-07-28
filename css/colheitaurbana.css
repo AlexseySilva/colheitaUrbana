@@ -103,7 +103,9 @@ section {
 /* Final da Nav bar (inicio) */
 /*###################*/
 /* Inicio da Nav bar Historia */
-
+.bodyHistoria{
+    background-color: #04AA6D;
+}
 
 /* Final da Nav bar Historia */
 /*###################*/
