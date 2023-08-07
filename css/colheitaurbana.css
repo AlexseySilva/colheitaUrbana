@@ -220,7 +220,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 20px;
+    padding: 5px;
 }
 .cont_rodape {
     display: flex;
@@ -392,8 +392,9 @@ main{
 /*########################## Pdf ######################*/
 #pdf{
     height: 900px;
-    width: 100%;
+    width: 80%;
     background-size: cover;
+    justify-content: center;
     background-image: url(../assets/ApresentacaoSite/pdfFoi.png);
 }
 footer{
