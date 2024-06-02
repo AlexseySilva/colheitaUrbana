@@ -403,7 +403,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #d80f08;
+    background: #f80303;
     padding: 20px;
 
     height: 100px;
@@ -441,7 +441,7 @@ footer{
 	height:60px;
 	bottom:40px;
 	right:40px;
-	background-color:#2531d3;
+	background-color:#25d366;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
