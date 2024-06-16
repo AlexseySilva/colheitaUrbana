@@ -1,0 +1,256 @@
+#bodyapresentação {
+    color: #000000;
+    background-color: #ffd00080;
+}
+
+#h1apresentação {
+    color: #1a7204;
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+/*########################## Primeira imagem e texto ###################### */
+#imgETexto {
+    width: 100%;
+    display: flex;
+    color: #2aa00d;
+}
+
+#apresentacaoimg {
+    height: 500px;
+    width: 1800px;
+    margin-bottom: 20px;
+    background-image: url(../assets/ApresentacaoSite/celularArvore.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#apresentacaoTexto {
+    margin-left: 20px;
+    margin-right: 400px;
+
+    font-size: 20px;
+    justify-content: center;
+}
+
+/*########################## Separação de divisão ######################*/
+#separadorDeSection {
+    color: white;
+    background-color: #964b00;
+    height: 25px;
+    text-align: center;
+    font-size: 25px;
+    margin: 10 0 10 0;
+}
+
+/*########################## Separação de divisão ######################*/
+
+
+/*########################## Segunda imagem e texto ######################*/
+#imgETexto2 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+#apresentapresentacaoTexto2 {
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#apresentacaoimg2 {
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    background-image: url(../assets/ApresentacaoSite/frutrosColetados.jpg);
+    background-size: cover;
+
+}
+
+/*########################## Terceira imagem e texto ######################*/
+
+#imgETexto3 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+#apresentapresentacaoTexto3 {
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#apresentacaoimg3 {
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    background-image: url(../assets/ApresentacaoSite/fotoFrutos.jpg);
+    background-size: cover;
+
+}
+
+/*########################## Quarta imagem e texto ######################*/
+#imgETexto4 {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+#apresentapresentacaoTexto4 {
+    height: 400px;
+    width: 400px;
+    font-size: 20px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#apresentacaoimg4 {
+    margin-left: 90px;
+    height: 400px;
+    width: 400px;
+    background-image: url(../assets/ApresentacaoSite/felicidade.jpg);
+    background-size: cover;
+
+}
+/*########################## Pdf ######################*/
+#pdf{
+    height: 900px;
+    width: 80%;
+    background-size: cover;
+    justify-content: center;
+    background-image: url(../assets/ApresentacaoSite/pdfFoi.png);
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f80303;
+    padding: 8px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+.contato_ref{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.contato_ref a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+.contato_ref a:hover{
+    color: #060ae2;
+}
+.contato_ref p {
+    text-decoration: none;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Whatsapp button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f80303;
+    padding: 8px;
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    
+}
+/*#################################### FOOTER #####################################*/
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #f80303;
+    padding: 8px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    bottom: 0px;
+    left: 0px;
+    
+}
+.contato_ref{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+.contato_ref a{
+    text-decoration: none;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto
+    
+}
+.contato_ref a:hover{
+    color: #060ae2;
+}
+.contato_ref p {
+    text-decoration: none;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/* Whatsapp button */
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}

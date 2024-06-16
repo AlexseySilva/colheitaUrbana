@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sobre</title>
     <link rel="stylesheet" href="css/colheitaurbana.css">
-    <link rel="stylesheet" href="css/sobre.css">
+    <link rel="stylesheet" href="css/login.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="js.js/teste.js">
 </head>
 <div class="topnav" id="myTopnav">
     <a href="index.html" class="active">Inicio</a>
@@ -17,9 +19,34 @@
     <a href="apresentaçãoideia.html">Ideia</a>
     <a href="cadastrar.html">Cadastrar</a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
+        <i class="fa fa-bars"></i>
+      </a>
     </a>
   </div>
+  <body>
+    <div id="login">
+        <div  id="imagenLogin">
+    
+            <div class="login-container">
+                <h2>Login</h2>
+                <form action="login_process.php" method="post">
+                    <input type="text" id="username" name="username" placeholder="Nome" required>
+                    <input type="password" id="password" name="password" placeholder="Senha" required>
+                    <input type="submit" value="Entrar">
+                </form>
+                <div class="social-login">
+                    <a href="#" class="facebook" title="Login com Facebook"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="instagram" title="Login com Instagram"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="twitter" title="Login com Twitter"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="google" title="Login com Google"><i class="fa fa-google"></i></a>
+                    <a href="#" class="github" title="Login com GitHub"><i class="fa fa-github"></i></a>
+                    <a href="#" class="email" title="Login com E-mail"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+            <!-- Font Awesome CDN link -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </div>
+
   <footer>
     <div class="sociais">
       <ul class="icones-sociais">
@@ -31,12 +58,9 @@
     </div>
     <p>Alexsey - 2023</p><br>
     <p>&copy; 2023 Todos os direitos reservados</p>
-  </footer>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</footer>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=+5519981458441&text=Olá%20eu%20gostaria%20de%20ajudar%20com%20o%20seu%20projeto!" class="float" target="_blank">
     <i class="fa fa-whatsapp my-float"></i>
-  </a>  
-<body>
-    
+</a>     
 </body>
-</html>
