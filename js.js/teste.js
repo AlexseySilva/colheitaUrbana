@@ -1,4 +1,3 @@
-
 function limparCamposEndereco() {
     document.getElementById('rua').value = '';
     document.getElementById('bairro').value = '';
