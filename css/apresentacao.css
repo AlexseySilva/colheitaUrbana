@@ -1,10 +1,10 @@
 #bodyapresentação {
     color: #000000;
-    background-color: #ffd00080;
+    background-color: #228B22;/* Verde Floresta */;
 }
 
 #h1apresentação {
-    color: #1a7204;
+    color: #000000;
     font-size: 50px;
     text-align: center;
     margin: 20px;
@@ -14,7 +14,7 @@
 #imgETexto {
     width: 100%;
     display: flex;
-    color: #2aa00d;
+    color: #000000;
 }
 
 #apresentacaoimg {
@@ -36,8 +36,8 @@
 
 /*########################## Separação de divisão ######################*/
 #separadorDeSection {
-    color: white;
-    background-color: #964b00;
+    color: rgb(0, 0, 0);
+    background-color: #c21f1f;/* Verde Floresta */;
     height: 25px;
     text-align: center;
     font-size: 25px;
@@ -123,7 +123,8 @@
 #pdf{
     height: 900px;
     width: 80%;
-    background-size: cover;
+    background-size: contain;
+
     justify-content: center;
     background-image: url(../assets/ApresentacaoSite/pdfFoi.png);
 }

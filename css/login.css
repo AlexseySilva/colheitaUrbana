@@ -1,3 +1,81 @@
+/*############################# Login #################################### */
+
+#imagenLogin{
+    height: 610px;
+    width: 800px;
+    background-image: url(../assets/ApresentacaoSite/celularArvore.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.login{
+    height: 100%;
+    width: 100%;
+}
+.login-container {
+    background-color: #228B22;/* Verde Floresta */;
+    padding: 10px;
+    
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+    width: 92%;
+    height: 100%;
+    text-align: center;
+    margin-left: 600px;
+}
+.login-container h2 {
+    margin-bottom: 20px;
+}
+.login-container input[type="text"], 
+.login-container input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.login-container input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+.login-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+.social-login {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.social-login a {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-color: #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+.social-login a:hover {
+    background-color: #ccc;
+}
+.social-login a.facebook { background-color: #3b5998; }
+.social-login a.instagram { background-color: #E1306C; }
+.social-login a.twitter { background-color: #1DA1F2; }
+.social-login a.google { background-color: #DB4437; }
+.social-login a.github { background-color: #333; }
+.social-login a.email { background-color: #D44638; }
 /*#################################### FOOTER #####################################*/
 footer{
     display: flex;
