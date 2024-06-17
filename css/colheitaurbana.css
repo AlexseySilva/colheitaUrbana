@@ -53,10 +53,10 @@ section {
 .topnav {
     overflow: hidden;
     background-color: #f80303;
+    
   }
   
   .topnav a {
-
     float: right;
     display: block;
     color: #f2f2f2;
@@ -69,6 +69,7 @@ section {
   .topnav a:hover {
     background-color: #228B22;/* Verde Floresta */
     color: black;
+    border-radius: 10%;
   }
   
 
