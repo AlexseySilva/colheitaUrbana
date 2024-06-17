@@ -103,6 +103,20 @@ body {
     line-height: 1;
     background-color: #228B22;/* Verde Floresta */;
 }
+/*#################################### Contato P ##################################*/
+#textoContato{
+  font-size: 20px;
+  margin-left: 15px;
+}
+#textoContatoSe{
+  margin-left: 25px;
+  font-size: 25px;
+}
+.textoContatoP{
+  margin-top: 25px;
+  align-items: center;
+  font-size: 20px;
+}
 /*#################################### FOOTER #####################################*/
 footer{
     display: flex;
