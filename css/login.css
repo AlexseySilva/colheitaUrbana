@@ -130,16 +130,17 @@ body {
     margin-left: 600px;
 }
 .login-container h2 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .login-container input[type="text"], 
 .login-container input[type="password"] {
-    width: calc(100% - 20px);
+    width: calc(75% - 20px);
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    margin-bottom: 30px;
 }
 .login-container input[type="submit"] {
     background-color: #4CAF50;
@@ -149,7 +150,7 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%;
+    width: 50%;
 }
 .login-container input[type="submit"]:hover {
     background-color: #45a049;
@@ -162,8 +163,8 @@ body {
     border-radius: 4px;
     cursor: pointer;
     font-size: 16px;
-    width: 100%;
-    margin-top: 10px; /* Espaço entre os botões */
+    width: 50%;
+    margin-top: 20px; /* Espaço entre os botões */
 }
 
 .login-container button.cadastrar:hover {
@@ -172,8 +173,10 @@ body {
 
 .social-login {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
+    margin-left: 18%;
+    width: 500px;
 }
 .social-login a {
     display: inline-block;
