@@ -1,69 +1,75 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="pt-br"> <!-- Início do documento HTML com idioma definido como português do Brasil -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobre</title>
-    <link rel="stylesheet" href="css/colheitaurbana.css">
-    <link rel="stylesheet" href="css/login.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="js.js/teste.js">
+    <meta charset="UTF-8"> <!-- Definição de codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração para responsividade -->
+    <title>Login</title> <!-- Título da página -->
+    <link rel="stylesheet" href="css/colheitaurbana.css"> <!-- Link para o arquivo CSS principal -->
+    <link rel="stylesheet" href="css/login.css"> <!-- Link para o arquivo CSS específico da página -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Link para o CSS da Font Awesome -->
+    <link rel="stylesheet" href="js.js/teste.js"> <!-- Link para um arquivo JavaScript (aparentemente incorreto) -->
+    <script>
+        // Função JavaScript para alternar o menu de navegação em telas menores
+        function toggleMenu() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </head>
-<div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Inicio</a>
-    <a href="historia.html">Historia</a>
-<!-- <a href="comunidade.html">Comunidade</a>
-    <a href="sobre.html">Sobre</a>-->
-    <a href="contato.html">Contato</a>
-    <a href="apresentaçãoideia.html">Ideia</a>
-    <a href="cadastrar.html">Cadastrar</a>
-
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<div class="topnav" id="myTopnav"> <!-- Menu de navegação -->
+    <a href="index.html" class="active">Início</a> <!-- Link para a página inicial -->
+    <a href="historia.html">História</a> <!-- Link para a página de história -->
+    <a href="comunidade.html">Comunidade</a> <!-- Link para a página de comunidade -->
+    <a href="contato.html">Contato</a> <!-- Link para a página de contato -->
+    <a href="apresentaçãoideia.html">Ideia</a> <!-- Link para a página de apresentação de ideia -->
+    <a href="cadastrar.html">Cadastrar</a> <!-- Link para a página de cadastro -->
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()"> <!-- Ícone do menu hambúrguer para telas menores -->
         <i class="fa fa-bars"></i>
-      </a>
     </a>
-  </div>
-  <body>
-    <div id="login">
-        <div  id="imagenLogin">
-    
-            <div class="login-container">
-                <h2>Login</h2>
-                <form action="login_process.php" method="post">
-                    <input type="text" id="username" name="username" placeholder="Nome" required>
-                    <input type="password" id="password" name="password" placeholder="Senha" required>
-                    <input type="submit" value="Entrar">
-                    <button type="button" class="cadastrar" onclick="window.location.href='cadastrar.html'">Cadastrar</button>
-                    
+</div>
+<body>
+    <div id="login"> <!-- Seção de login -->
+        <div id="imagenLogin"> <!-- Seção para imagem de login -->
+            <div class="login-container"> <!-- Container do formulário de login -->
+                <h2>Login</h2> <!-- Título do formulário -->
+                <form action="login_process.php" method="post"> <!-- Formulário de login -->
+                    <input type="text" id="username" name="username" placeholder="Nome" required> <!-- Campo para nome de usuário -->
+                    <input type="password" id="password" name="password" placeholder="Senha" required> <!-- Campo para senha -->
+                    <input type="submit" value="Entrar"> <!-- Botão de envio -->
+                    <button type="button" class="cadastrar" onclick="window.location.href='cadastrar.html'">Cadastrar</button> <!-- Botão para redirecionar para a página de cadastro -->
                 </form>
-                <div class="social-login">
-                    <a href="#" class="facebook" title="Login com Facebook"><i class="fa fa-facebook"></i></a>
-                    <a href="#" class="instagram" title="Login com Instagram"><i class="fa fa-instagram"></i></a>
-                    <a href="#" class="twitter" title="Login com Twitter"><i class="fa fa-twitter"></i></a>
-                    <a href="#" class="google" title="Login com Google"><i class="fa fa-google"></i></a>
-                    <a href="#" class="github" title="Login com GitHub"><i class="fa fa-github"></i></a>
-                    <a href="#" class="email" title="Login com E-mail"><i class="fa fa-envelope"></i></a>
+                <div class="social-login"> <!-- Seção de login social -->
+                    <a href="#" class="facebook" title="Login com Facebook"><i class="fa fa-facebook"></i></a> <!-- Link para login com Facebook -->
+                    <a href="#" class="instagram" title="Login com Instagram"><i class="fa fa-instagram"></i></a> <!-- Link para login com Instagram -->
+                    <a href="#" class="twitter" title="Login com Twitter"><i class="fa fa-twitter"></i></a> <!-- Link para login com Twitter -->
+                    <a href="#" class="google" title="Login com Google"><i class="fa fa-google"></i></a> <!-- Link para login com Google -->
+                    <a href="#" class="github" title="Login com GitHub"><i class="fa fa-github"></i></a> <!-- Link para login com GitHub -->
+                    <a href="#" class="email" title="Login com E-mail"><i class="fa fa-envelope"></i></a> <!-- Link para login com E-mail -->
                 </div>
             </div>
             <!-- Font Awesome CDN link -->
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </div>
     </div>
-
-  <footer>
-    <div class="sociais">
-      <ul class="icones-sociais">
-        <li><a href="https://www.facebook.com/alexsey.Batista/" target="_blank"><img src="assets/iconesDoSite/facebook.png" alt=""></a></li>
-        <li><a href="https://www.instagram.com/alexsey.batista/" target="_blank"><img src="assets/iconesDoSite/instagram-logo.png" alt=""></a></li>
-        <li><a href="https://wa.me/+5519981458441/?text=urlencodedtext" target="_blank"><img src="assets/iconesDoSite/whatsapp.png"alt=""></a></li>
-        <li><a href="mailto:alexsey.batista@hotmail.com"><img src="assets/iconesDoSite/email.png"alt=""></a></li>
-      </ul>
-    </div>
-    <p>Alexsey - 2023</p><br>
-    <p>&copy; 2023 Todos os direitos reservados</p>
-</footer>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=+5519981458441&text=Olá%20eu%20gostaria%20de%20ajudar%20com%20o%20seu%20projeto!" class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-</a>     
+    <footer> <!-- Rodapé da página -->
+        <div class="sociais"> <!-- Seção de ícones sociais -->
+            <ul class="icones-sociais">
+                <li><a href="https://www.facebook.com/alexsey.Batista/" target="_blank"><img src="assets/iconesDoSite/facebook.png" alt=""></a></li> <!-- Link para o Facebook -->
+                <li><a href="https://www.instagram.com/alexsey.batista/" target="_blank"><img src="assets/iconesDoSite/instagram-logo.png" alt=""></a></li> <!-- Link para o Instagram -->
+                <li><a href="https://wa.me/+5519981458441/?text=urlencodedtext" target="_blank"><img src="assets/iconesDoSite/whatsapp.png"alt=""></a></li> <!-- Link para o WhatsApp -->
+                <li><a href="mailto:alexsey.batista@hotmail.com"><img src="assets/iconesDoSite/email.png"alt=""></a></li> <!-- Link para o e-mail -->
+            </ul>
+        </div>
+        <p>Alexsey - 2023</p><br> <!-- Texto com o nome e ano -->
+        <p>&copy; 2023 Todos os direitos reservados</p> <!-- Texto de direitos autorais -->
+    </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!-- Link para o CSS da Font Awesome -->
+    <a href="https://api.whatsapp.com/send?phone=+5519981458441&text=Olá%20eu%20gostaria%20de%20ajudar%20com%20o%20seu%20projeto!" class="float" target="_blank"> <!-- Link flutuante para o WhatsApp -->
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>     
 </body>
+</html>

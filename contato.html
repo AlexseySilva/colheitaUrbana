@@ -1,50 +1,60 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="pt-br"> <!-- Início do documento HTML com idioma definido como português do Brasil -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="css/colheitaurbana.css">
-    <link rel="stylesheet" href="css/contato.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8"> <!-- Definição de codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração para responsividade -->
+    <title>Contato</title> <!-- Título da página -->
+    <link rel="stylesheet" href="css/colheitaurbana.css"> <!-- Link para o arquivo CSS principal -->
+    <link rel="stylesheet" href="css/contato.css"> <!-- Link para o arquivo CSS específico da página -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Link para o CSS da Font Awesome -->
+    <script>
+        // Função JavaScript para alternar o menu de navegação em telas menores
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </head>
-<div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Inicio</a>
-    <a href="historia.html">Historia</a>
-<!-- <a href="comunidade.html">Comunidade</a>
-    <a href="sobre.html">Sobre</a>-->
-    <a href="contato.html">Contato</a>
-    <a href="apresentaçãoideia.html">Ideia</a>
-    <a href="login.html">Login</a>
-  </div>
+<div class="topnav" id="myTopnav"> <!-- Menu de navegação -->
+    <a href="index.html" class="active">Início</a> <!-- Link para a página inicial -->
+    <a href="historia.html">História</a> <!-- Link para a página de história -->
+    <a href="comunidade.html">Comunidade</a> <!-- Link para a página de comunidade -->
+    <a href="contato.html">Contato</a> <!-- Link para a página de contato -->
+    <a href="apresentaçãoideia.html">Ideia</a> <!-- Link para a página de apresentação de ideia -->
+    <a href="login.html">Login</a> <!-- Link para a página de login -->
+</div>
 <body>
-  <div id="caixaTexto"></div>
+    <div id="caixaTexto"></div> <!-- Seção para texto de contato -->
     <p id="textoContato">Entre em Contato com o Time do Colheita Urbana
     Você tem alguma dúvida, sugestão ou gostaria de saber mais sobre o projeto Colheita Urbana? Adoraríamos ouvir você! Sua participação é fundamental para o sucesso desta iniciativa e estamos aqui para ajudar no que for necessário.<br />
     <br>
     <p id="textoContatoSe"><strong>Se você:</strong></p>
     </p>
-    <li class="textoContatoP">Saber mais sobre como mapear árvores frutíferas na sua cidade</li>
+    <li class="textoContatoP">Saber mais sobre como mapear árvores frutíferas na sua cidade</li> <!-- Lista de motivos para entrar em contato -->
     <li class="textoContatoP">Contribuir com informações e fotos de árvores frutíferas</li>
     <li class="textoContatoP">Voluntariar-se para ajudar a expandir o projeto</li>
     <li class="textoContatoP">Dar feedback ou sugestões para melhorar nossa plataforma</li>
     <li class="textoContatoP">Entre em contato com a gente! Nosso time está pronto para responder suas perguntas e ouvir suas ideias. Juntos, podemos criar uma rede colaborativa forte e promover um impacto positivo em nossas comunidades.</li>
-  </div>
-    <footer>
-    <div class="sociais">
-      <ul class="icones-sociais">
-        <li><a href="https://www.facebook.com/alexsey.Batista/" target="_blank"><img src="assets/iconesDoSite/facebook.png" alt=""></a></li>
-        <li><a href="https://www.instagram.com/alexsey.batista/" target="_blank"><img src="assets/iconesDoSite/instagram-logo.png" alt=""></a></li>
-        <li><a href="https://wa.me/+5519981458441/?text=urlencodedtext" target="_blank"><img src="assets/iconesDoSite/whatsapp.png"alt=""></a></li>
-        <li><a href="mailto:alexsey.batista@hotmail.com"><img src="assets/iconesDoSite/email.png"alt=""></a></li>
-      </ul>
     </div>
-    <p>Alexsey - 2023</p><br>
-    <p>&copy; 2023 Todos os direitos reservados</p>
-  </footer>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <a href="https://api.whatsapp.com/send?phone=+5519981458441&text=Olá%20eu%20gostaria%20de%20ajudar%20com%20o%20seu%20projeto!" class="float" target="_blank">
-    <i class="fa fa-whatsapp my-float"></i>
-  </a>  
+    <footer> <!-- Rodapé da página -->
+        <div class="sociais"> <!-- Seção de ícones sociais -->
+            <ul class="icones-sociais">
+                <li><a href="https://www.facebook.com/alexsey.Batista/" target="_blank"><img src="assets/iconesDoSite/facebook.png" alt=""></a></li> <!-- Link para o Facebook -->
+                <li><a href="https://www.instagram.com/alexsey.batista/" target="_blank"><img src="assets/iconesDoSite/instagram-logo.png" alt=""></a></li> <!-- Link para o Instagram -->
+                <li><a href="https://wa.me/+5519981458441/?text=urlencodedtext" target="_blank"><img src="assets/iconesDoSite/whatsapp.png"alt=""></a></li> <!-- Link para o WhatsApp -->
+                <li><a href="mailto:alexsey.batista@hotmail.com"><img src="assets/iconesDoSite/email.png"alt=""></a></li> <!-- Link para o e-mail -->
+            </ul>
+        </div>
+        <p>Alexsey - 2023</p><br> <!-- Texto com o nome e ano -->
+        <p>&copy; 2023 Todos os direitos reservados</p> <!-- Texto de direitos autorais -->
+    </footer>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> <!-- Link para o CSS da Font Awesome -->
+    <a href="https://api.whatsapp.com/send?phone=+5519981458441&text=Olá%20eu%20gostaria%20de%20ajudar%20com%20o%20seu%20projeto!" class="float" target="_blank"> <!-- Link flutuante para o WhatsApp -->
+        <i class="fa fa-whatsapp my-float"></i>
+    </a>  
 </body>
 </html>

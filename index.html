@@ -1,137 +1,82 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<!DOCTYPE html> <!-- Declaração do tipo de documento HTML -->
+<html lang="pt-br"> <!-- Início do documento HTML com idioma definido como português do Brasil -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ColheitaUrbana</title>
-    <link rel="stylesheet" href="css/colheitaurbana.css">
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="UTF-8"> <!-- Definição de codificação de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuração para responsividade -->
+    <title>Colheita Urbana</title> <!-- Título da página -->
+    <link rel="stylesheet" href="css/colheitaurbana.css"> <!-- Link para o arquivo CSS principal -->
+    <link rel="stylesheet" href="css/index.css"> <!-- Link para o arquivo CSS específico da página -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- Link para o CSS da Font Awesome -->
+    <script>
+        // Função JavaScript para alternar o menu de navegação em telas menores
+        function toggleMenu() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
 </head>
-<div class="topnav" id="myTopnav">
-    <a href="index.html" class="active">Inicio</a>
-    <a href="historia.html">Historia</a>
-<!-- <a href="comunidade.html">Comunidade</a>
-    <a href="sobre.html">Sobre</a>-->
-    <a href="contato.html">Contato</a>
-    <a href="apresentaçãoideia.html">Ideia</a>
-    <a href="login.html">Login</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+<div class="topnav" id="myTopnav"> <!-- Menu de navegação -->
+    <a href="index.html" class="active">Início</a> <!-- Link para a página inicial -->
+    <a href="historia.html">História</a> <!-- Link para a página de história -->
+    <a href="comunidade.html">Comunidade</a> <!-- Link para a página de comunidade -->
+    <a href="contato.html">Contato</a> <!-- Link para a página de contato -->
+    <a href="apresentaçãoideia.html">Ideia</a> <!-- Link para a página de apresentação de ideia -->
+    <a href="login.html">Login</a> <!-- Link para a página de login -->
+    <a href="javascript:void(0);" class="icon" onclick="toggleMenu()"> <!-- Ícone do menu hambúrguer para telas menores -->
       <i class="fa fa-bars"></i>
     </a>
-  </div>
+</div>
 <body>
   <main>
-    <h1 id="h1index">Seja bem vindo a colheita urbana</h1>
-      <div id="borda">
-        <div class="container">
-          <img src="assets/imgPerfil/johnyyVeloso.jpg" alt="">
-          <a href="https://www.instagram.com/churrosdochaves277" target="_blank">Johnny Veloso</a>
+    <h1 id="h1index">Seja bem-vindo à Colheita Urbana</h1> <!-- Título principal da página -->
+      <div id="borda"> <!-- Seção com borda -->
+        <div class="container"> <!-- Container para conteúdo -->
+          <img src="assets/imgPerfil/johnyyVeloso.jpg" alt=""> <!-- Imagem de perfil -->
+          <a href="https://www.instagram.com/churrosdochaves277" target="_blank">Johnny Veloso</a> <!-- Link para o Instagram -->
           <a href="https://www.google.com/maps?q=-22.9194277,-47.0543701&z=17&hl=pt-BR" target="_blank"><img
-              src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-          <a class="fruto" href="https://pt.wikipedia.org/wiki/Ing%C3%A1" target="_blank">Inga</a>
+              src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a> <!-- Link para localização no Google Maps -->
+          <a class="fruto" href="https://pt.wikipedia.org/wiki/Ing%C3%A1" target="_blank">Ingá</a> <!-- Link para a Wikipedia sobre Ingá -->
         </div>
-          <div><img class="trocafoto" src="assets/Fotos/primeiraFotoDoSite.jpeg" alt=""></div>
+          <div><img class="trocafoto" src="assets/Fotos/primeiraFotoDoSite.jpeg" alt=""></div> <!-- Imagem de troca -->
       </div>
-          <div id="borda">
-            <div class="container">
-              <img src="assets/imgPerfil/minhaFoto.jpg" alt="">
-              <a href="https://www.facebook.com/alexsey.Batista">Alexsey Batista</a>
+          <div id="borda"> <!-- Seção com borda -->
+            <div class="container"> <!-- Container para conteúdo -->
+              <img src="assets/imgPerfil/minhaFoto.jpg" alt=""> <!-- Imagem de perfil -->
+              <a href="https://www.facebook.com/alexsey.Batista">Alexsey Batista</a> <!-- Link para o Facebook -->
               <a href="https://www.google.com/maps?q=-22.915425,-47.0560967&z=17&hl=pt-BR" target="_blank"><img
-              src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-              <a class="fruto" href="https://pt.wikipedia.org/wiki/Amendoeira-da-praia" target="_blank">Amendoeira-da-praia</a>
+              src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a> <!-- Link para localização no Google Maps -->
+              <a class="fruto" href="https://pt.wikipedia.org/wiki/Amendoeira-da-praia" target="_blank">Amendoeira-da-praia</a> <!-- Link para a Wikipedia sobre Amendoeira-da-praia -->
             </div>
-            <div><img class="trocafoto" src="assets/Fotos/minhaPrimeiraFoto.jpeg" alt=""></div>
+            <div><img class="trocafoto" src="assets/Fotos/minhaPrimeiraFoto.jpeg" alt=""></div> <!-- Imagem de troca -->
           </div>
           </div>
-          <div id="borda">
-            <div class="container">
-              <img src="assets/imgPerfil/minhaFoto.jpg" alt="">
-              <a href="https://www.facebook.com/alexsey.Batista">Alexsey Batista</a>
+          <div id="borda"> <!-- Seção com borda -->
+            <div class="container"> <!-- Container para conteúdo -->
+              <img src="assets/imgPerfil/minhaFoto.jpg" alt=""> <!-- Imagem de perfil -->
+              <a href="https://www.facebook.com/alexsey.Batista">Alexsey Batista</a> <!-- Link para o Facebook -->
               <a href="https://www.google.com/maps?q=-22.9194277,-47.0543701&z=17&hl=pt-BR" target="_blank"><img
-                  src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-              <a class="fruto" href="https://pt.wikipedia.org/wiki/Abacate" target="_blank">Abacate</a>
+                  src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a> <!-- Link para localização no Google Maps -->
+              <a class="fruto" href="https://pt.wikipedia.org/wiki/Abacate" target="_blank">Abacate</a> <!-- Link para a Wikipedia sobre Abacate -->
             </div>
-            <div><img class="trocafoto" src="assets/Fotos/Abacate.jpeg" alt=""></div>
+            <div><img class="trocafoto" src="assets/Fotos/Abacate.jpeg" alt=""></div> <!-- Imagem de troca -->
           </div>
           </div>
-          <div id="borda">
-            <div class="container">
-              <img src="assets/imgPerfil/fotoAmor.jpg" alt="">
-              <a href="https://www.instagram.com/li_baptista1/">Eliane Bptista</a>
+          <div id="borda"> <!-- Seção com borda -->
+            <div class="container"> <!-- Container para conteúdo -->
+              <img src="assets/imgPerfil/fotoAmor.jpg" alt=""> <!-- Imagem de perfil -->
+              <a href="https://www.instagram.com/li_baptista1/">Eliane Batista</a> <!-- Link para o Instagram -->
               <a href="https://www.google.com/maps?q=-22.943157,-47.0921599&z=17&hl=pt-BR" target="_blank"><img
-                  src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-              <a class="fruto" href="https://pt.wikipedia.org/wiki/Acerola" target="_blank">Acerola</a>
+                  src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a> <!-- Link para localização no Google Maps -->
+              <a class="fruto" href="https://pt.wikipedia.org/wiki/Acerola" target="_blank">Acerola</a> <!-- Link para a Wikipedia sobre Acerola -->
             </div>
-            <div><img class="trocafoto" src="assets/Fotos/acerolaAmor.jpeg" alt=""></div>
+            <div><img class="trocafoto" src="assets/Fotos/acerolaAmor.jpeg" alt=""></div> <!-- Imagem de troca -->
           </div>
-          <div id="borda">
-            <div class="container">
-              <img src="assets/imgPerfil/minhaFoto.jpg" alt="">
-              <a href="https://www.facebook.com/alexsey.Batista">Alexsey batista</a>
-              <a href="https://www.google.com/maps/place/22%C2%B055'09.9%22S+47%C2%B003'15.4%22W/@-22.9194197,-47.0568535,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-22.9194197!4d-47.0542786?hl=pt-BR&entry=ttu" target="_blank"><img
-                  src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-              <a class="fruto" href="https://pt.wikipedia.org/wiki/Mang%C3%A1" target="_blank">Manga</a>
-            </div>
-            <div><img class="trocafoto" src="assets/Fotos/manga1.jpeg" alt=""></div>
-          </div>
-        </div>
-        <div id="borda">
-          <div class="container">
-            <img src="assets/imgPerfil/minhaFoto.jpg" alt="">
-            <a href="https://www.facebook.com/alexsey.Batista">Alexsey batista</a>
-            <a href="https://www.google.com/maps/place/22%C2%B055'10.2%22S+47%C2%B003'15.6%22W/@-22.9195078,-47.0569019,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-22.9195078!4d-47.054327?hl=pt-BR&entry=ttu" target="_blank"><img
-                src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-            <a class="fruto" href="https://pt.wikipedia.org/wiki/Amendoeira-da-praia" target="_blank">Amendoeira da praia</a>
-          </div>
-          <div><img class="trocafoto" src="assets/Fotos/amendoeiraDaPraia.jpeg" alt=""></div>
-        </div>
-      <div id="borda">
-        <div class="container">
-        <img src="assets/imgPerfil/minhaFoto.jpg" alt="">
-        <a href="https://www.facebook.com/alexsey.Batista">Alexsey batista</a>
-        <a href="https://www.google.com/maps/place/22%C2%B055'09.1%22S+47%C2%B003'15.2%22W/@-22.9191816,-47.0567953,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-22.9191816!4d-47.0542204?hl=pt-BR&entry=ttu" target="_blank"><img
-            src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-        <a class="fruto" href="https://pt.wikipedia.org/wiki/Goiabeira" target="_blank">Goiabeira</a>
-        </div>  
-        <div><img class="trocafoto" src="assets/Fotos/goiaba.jpeg" alt=""></div>
-      </div>  
-      <div id="borda">
-        <div class="container">
-        <img src="assets/imgPerfil/minhaFoto.jpg" alt="">
-        <a href="https://www.facebook.com/alexsey.Batista">Alexsey batista</a>
-        <a href="https://www.google.com/maps/place/22%C2%B055'14.5%22S+47%C2%B003'16.3%22W/@-22.9207024,-47.0570924,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-22.9207024!4d-47.0545175?hl=pt-BR&entry=ttu" target="_blank"><img
-            src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-        <a class="fruto" href="https://pt.wikipedia.org/wiki/Pitanga" target="_blank">Pitanga</a>
-        </div>
-        <div><img class="trocafoto" src="assets/Fotos/pitanga.jpeg" alt=""></div>
-      </div>
-      <div id="borda">
-        <div class="container">
-        <img src="assets/imgPerfil/minhaFoto.jpg" alt="">
-        <a href="https://www.facebook.com/alexsey.Batista">Alexsey batista</a>
-        <a href="https://www.google.com/maps?q=-22.9210487,-47.0547917&z=17&hl=pt-BR" target="_blank"><img
-            src="assets/iconesDoSite/imgLocalizacao.png" alt=""></a>
-        <a class="fruto" href="https://pt.wikipedia.org/wiki/Mang%C3%A1" target="_blank">Manga</a>
-        </div>
-        <div><img class="trocafoto" src="assets/Fotos/manga2.jpeg" alt=""></div>  
-      </div>              
-  </main>
-    <footer>
-      <div class="sociais">
-        <ul class="icones-sociais">
-          <li><a href="https://www.facebook.com/alexsey.Batista/" target="_blank"><img src="assets/iconesDoSite/facebook.png" alt=""></a></li>
-          <li><a href="https://www.instagram.com/alexsey.batista/" target="_blank"><img src="assets/iconesDoSite/instagram-logo.png" alt=""></a></li>
-          <li><a href="https://wa.me/+5519981458441/?text=urlencodedtext" target="_blank"><img src="assets/iconesDoSite/whatsapp.png"alt=""></a></li>
-          <li><a href="mailto:alexsey.batista@hotmail.com"><img src="assets/iconesDoSite/email.png"alt=""></a></li>
-        </ul>
-      </div>
-      <p>Alexsey - 2023</p><br>
-      <p>&copy;2023-2023 Todos os direitos reservados </p>
-    </footer>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-      <a href="https://api.whatsapp.com/send?phone=+5519981458441&text=Olá%20eu%20gostaria%20de%20ajudar%20com%20o%20seu%20projeto!" class="float" target="_blank">
-      <i class="fa fa-whatsapp my-float"></i>
-    </a>      
-</body>
-</html>
+          <div id="borda"> <!-- Seção com borda -->
+            <div class="container"> <!-- Container para conteúdo -->
+              <img src="assets/imgPerfil/minhaFoto.jpg" alt=""> <!-- Imagem de perfil -->
+              <a href="https://www.facebook.com/alexsey.Batista">Alexsey Batista</a> <!-- Link para o Facebook -->
+              <a href="https://www.google.com/maps/place/22%C2%B055'09.9%22S+47%C2%B
